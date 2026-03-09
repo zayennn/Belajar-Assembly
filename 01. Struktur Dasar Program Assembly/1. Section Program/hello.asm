@@ -34,4 +34,17 @@ section .bss
 @ ? section .text → tempat code program di jalankan ( semua instruksi cpu ada di sini )
 @ todo contoh :
 
-section .
+section .data
+    angka db 5
+
+section .bss
+    hasil resb 1
+
+section .text
+
+/*
+    * artinya :
+    .data = data awal
+    .bss = memory kosong
+    .text = kode program 
+*/
