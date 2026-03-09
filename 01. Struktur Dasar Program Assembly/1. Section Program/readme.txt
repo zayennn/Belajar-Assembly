@@ -5,3 +5,5 @@ penjelasan :
 nasm → assembler
 -f elf → format object file
 main.asm → file sumber
+
+hasil nya akan membuat file baru bernama main.o
